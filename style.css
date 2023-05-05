@@ -34,7 +34,15 @@ nav{
 #features, #Company, .otherLinks{
     position: relative;
     padding-bottom: 18px;
-} 
+}
+#icon-menu, #closeMenu {
+    animation: widthy 1s 3;
+    cursor: pointer;
+}
+@keyframes widthy {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(25deg);}
+}
 @keyframes mymove {
     from {right: -50px;}
     to {right: -10px;}
@@ -68,4 +76,13 @@ nav li img{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+button{
+    font-size: 16px;
+    padding: 12px 60px;
+    font-weight: 400;
+}
+.register{
+    border: 1px solid black;
+    border-radius: 10px;
 }
