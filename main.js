@@ -26,4 +26,6 @@ iconMenu.addEventListener('click', () => {
 })
 document.getElementById("closeMenu").addEventListener('click', () => {
     document.getElementById('sideMenu').style.display = "none"
+    document.getElementById("myDrop1").classList.remove("show")
+    document.getElementById("myDrop").classList.remove("show")
 })
