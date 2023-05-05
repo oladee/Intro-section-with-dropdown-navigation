@@ -21,6 +21,8 @@ company.addEventListener('click', () => {
 })
 iconMenu.addEventListener('click', () => {
     document.getElementById('sideMenu').style.display = "block"
+    document.getElementById('sideMenu').style.animation = "mymove 2s 1"
+
 })
 document.getElementById("closeMenu").addEventListener('click', () => {
     document.getElementById('sideMenu').style.display = "none"

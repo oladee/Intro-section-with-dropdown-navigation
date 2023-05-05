@@ -30,9 +30,16 @@ nav{
 .hamburgerMenu{
     position: relative;
 }
+
 #features, #Company, .otherLinks{
+    position: relative;
     padding-bottom: 18px;
-}  
+} 
+@keyframes mymove {
+    from {right: -50px;}
+    to {right: -10px;}
+  }
+
 #closediv{
     display: flex;
     justify-content: end;
