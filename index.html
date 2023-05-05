@@ -1,74 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
-  
-  <title>Frontend Mentor | Intro section with dropdown navigation</title>
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  <nav>
-    <div class="logo">
-      <img src="./images/logo.svg" alt="logo">
-    </div>
-    <div class="hamburgerMenu">
-      <div class="ham">
-        <img src="./images/icon-menu.svg" alt="ham" id="icon-menu">
-      </div>
-      <div class="menu" id="sideMenu">
-        <div id="closediv">
-          <img src="./images/icon-close-menu.svg" alt="" id="close" >
-        </div>
-        <div class="features-dropmenu">
-          <p id="features">Features<img src="./images/icon-arrow-down.svg" alt="arrow-down" id="arrow"></p>
-          <div class="drop-content" id="myDrop">
-            <ul>
-              <li>
-                <img src="./images/icon-todo.svg" alt="todo" class="icon" >
-                Todo List
-              </li>
-              <li>
-                <img src="./images/icon-calendar.svg" alt="calendar" class="icon">
-                Calendar
-              </li>
-              <li>
-                <img src="./images/icon-reminders.svg" alt="reminder">
-                Reminders
-              </li>
-              <li>
-                <img src="./images/icon-planning.svg" alt="planning">
-                Planning
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="company-dropmenu">
-          <p id="Company" >Company<img src="./images/icon-arrow-down.svg" alt="arrow-down" id="arrow1"></p>
-          <div class="drop-content" id="myDrop1">
-            <ul>
-              <li>
-                History
-              </li>
-              <li>
-                Our Team
-              </li>
-              <li>
-                Blog
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
 
-  <!-- Features
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="./images/logo.svg" alt="logo" />
+      </div>
+      <div class="hamburgerMenu">
+        <div class="ham">
+          <img src="./images/icon-menu.svg" alt="ham" id="icon-menu" />
+        </div>
+        <div class="menu" id="sideMenu">
+          <div id="closediv">
+            <img src="./images/icon-close-menu.svg" alt="" id="closeMenu" />
+          </div>
+          <div class="features-dropmenu">
+            <p id="features">
+              Features<img
+                src="./images/icon-arrow-down.svg"
+                alt="arrow-down"
+                id="arrow"
+              />
+            </p>
+            <div class="drop-content" id="myDrop">
+              <ul>
+                <li>
+                  <img src="./images/icon-todo.svg" alt="todo" class="icon" />
+                  Todo List
+                </li>
+                <li>
+                  <img
+                    src="./images/icon-calendar.svg"
+                    alt="calendar"
+                    class="icon"
+                  />
+                  Calendar
+                </li>
+                <li>
+                  <img src="./images/icon-reminders.svg" alt="reminder" />
+                  Reminders
+                </li>
+                <li>
+                  <img src="./images/icon-planning.svg" alt="planning" />
+                  Planning
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="company-dropmenu">
+            <p id="Company">
+              Company<img
+                src="./images/icon-arrow-down.svg"
+                alt="arrow-down"
+                id="arrow1"
+              />
+            </p>
+            <div class="drop-content" id="myDrop1">
+              <ul>
+                <li>History</li>
+                <li>Our Team</li>
+                <li>Blog</li>
+              </ul>
+            </div>
+          </div>
+          <p class="otherLinks">Careers</p>
+          <p class="otherLinks">About</p>
+          <div class="buttons">
+            <button>Login</button>
+            <button>Register</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Features
   Company
   Careers
   About
@@ -82,11 +114,13 @@
   create team rituals, and watch productivity soar.
 
   Learn more -->
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-  <script src="./main.js"></script>
-</body>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+    <script src="./main.js"></script>
+  </body>
 </html>

@@ -3,6 +3,7 @@
     padding: 0;
     list-style: none;
     box-sizing: border-box;
+    font-family: 'Epilogue', sans-serif;
 }
 body{
     min-height: 100vh;
@@ -11,6 +12,10 @@ nav{
     display: flex;
     justify-content: space-between;
     padding: 1.5em 1em;
+}
+.menu, button{
+    background-color: white;
+    border: none;
 }
 .menu{
     display: none;
@@ -21,12 +26,11 @@ nav{
     width: 14rem;
     height: 100vh;
     top: -23px;
-    background-color: white;
 }
 .hamburgerMenu{
     position: relative;
 }
-#features, #Company{
+#features, #Company, .otherLinks{
     padding-bottom: 18px;
 }  
 #closediv{
@@ -41,7 +45,20 @@ nav{
 .drop-content{
     display: none;
     padding: 0px 18px 18px;
+    font-weight: 400;
+}
+nav li {
+    padding-bottom: 15px;
+}
+nav li img{
+    padding-right: 10px;
 }
 .show{
     display: block;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
