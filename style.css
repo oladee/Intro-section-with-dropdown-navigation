@@ -90,4 +90,21 @@ button{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
+}
+.writeUp h2{
+    font-size: 36px;
+    padding: 30px 0px 20px 0px ;
+}
+.writeUp p{
+    font-size: 17px;
+    line-height: 25px;
+    width: 95%;
+}
+.learnMore button{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 500;
 }
