@@ -100,11 +100,27 @@ button{
     font-size: 17px;
     line-height: 25px;
     width: 95%;
+    padding-bottom: 20px;
 }
 .learnMore button{
     background-color: black;
     color: white;
-    padding: 10px 20px;
+    padding: 12px 20px;
     border-radius: 10px;
+    margin-bottom: 30px;
     font-weight: 500;
+}
+.learnMore button:hover{
+    transform: scale(0.9);
+    transition: 0.8s ease-in-out;
+    cursor: pointer;
+}
+.footings{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footings img {
+    display: block;
+    width: 4rem;
 }
