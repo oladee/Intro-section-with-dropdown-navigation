@@ -124,3 +124,38 @@ button{
     display: block;
     width: 4rem;
 }
+@media (min-width:1024px){
+    .ham, #closediv{
+        display: none;
+    }
+    main{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        padding: 2rem 8rem;
+    }
+    picture{
+        grid-area: Image;
+    }
+    picture img{
+        display: block;
+        max-width: 550px;
+    }
+    .content{
+        width: 45%;
+        padding-right: 100px;
+    }
+    .writeUp{
+        display: block;
+        text-align: left;
+    }
+    .writeUp h2{
+        font-size: 5rem;
+        line-height: 80px;
+        width: 85%;
+        font-weight: 700;
+    }
+    .writeUp p{
+        width: 73%;
+    }
+}
