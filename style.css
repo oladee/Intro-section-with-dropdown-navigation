@@ -139,11 +139,11 @@ button{
     }
     picture img{
         display: block;
-        max-width: 550px;
+        max-width: 450px;
     }
     .content{
-        width: 45%;
-        padding-right: 100px;
+       
+        /* padding-right: 100px; */
     }
     .writeUp{
         display: block;
