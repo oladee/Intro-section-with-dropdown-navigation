@@ -7,7 +7,7 @@ features.addEventListener('click', () => {
     document.getElementById("myDrop").classList.toggle("show")
     if(arrow.src.includes("down")){
         arrow.src = "./images/icon-arrow-up.svg"
-    }else{
+    }else if (arrow.src.includes("up")){
         arrow.src = "./images/icon-arrow-down.svg"
     }
 });
